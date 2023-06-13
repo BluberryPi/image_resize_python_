@@ -7,7 +7,7 @@ import os
 ###
 
 name = input('name: ') #파일 이름 입력
-input_path = "/Users/munjunmin/Downloads/PS/*.jpg" #변환할 이미지 파일 위
+input_path = "파일위치/*.jpg" #변환할 이미지 파일 위치
 file_list = [file for file in glob.glob(input_path)]
 num = 1
 
